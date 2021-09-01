@@ -5,32 +5,43 @@ body {
     margin: 0px;
     font-size: 1.2rem;
     font-weight: 300;
-}
-
-hr {
-    margin: 2rem 0rem;
-}
-
-
-.navigation {
-    height: 5em;
-    background-image:"/image/192311.jpg";
-    background-color: yellow;
+    background-image: url("https://wallpaperbat.com/img/590680-minion-desktop-wallpaper.jpg");
+    /* background-image:url("https://wallpaperbat.com/img/590674-despicable-me-background-despicable-me-wallpaper-despicable-me-2-wallpaper-and-despicable-me-background.jpg"); */
+    margin: auto;
     text-align: center;
-    text-shadow: black;
-    padding: 2rem;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .name {
-    font-size: 2rem;
+    font-size: 3rem;
+}
+
+.navigation {
+    height: 5em;
+    /* background-image: url("https://wallpaperbat.com/img/590680-minion-desktop-wallpaper.jpg"); */
+    background-color: #FBD651;
+    text-align: center;
+    text-shadow: black;
+    padding: 2rem;
+    margin-bottom: 4rem;
+}
+
+.navigation .link {
+    text-align: right;
+}
+
+.name {
+    font-size:xx-large;
 }
 
 .text-box {
     height: 10vh;
-            display: block;
-            width: 60%;
-            margin: auto;
-            padding: 2rem;
+    display: block;
+    width: 60%;
+    margin: auto;
+    padding: 2rem;
 }
 
 
@@ -52,7 +63,7 @@ hr {
     padding: 0rem 0.5rem;
 }
 
-.link {
+.link {text-align: right;
         box-sizing: border-box;
         color: teal;
         text-decoration: none;
@@ -60,14 +71,16 @@ hr {
         }
 
 footer {
-    background-color: yellow;
+    margin-top: 4rem;
+    background-color: #FBD651;
     padding: 1rem;
     text-align: center;
     color:black;
 }
 
 #btn-translate {
-    background-color: yellow;
+    margin: center;
+    background-color: #FBD651;
     padding: 0.5rem;
     margin: 2rem;
     color: black;
@@ -77,42 +90,16 @@ footer {
 }
 
 #output {
-    border: 2px solid black;
+    background-color: white;
+    border: 2px solid white;
     height: 10vh;
-    width: 60%;
+    width: 65%;
     margin: auto;
     padding: 1rem;
 }
 
 .text-trans {
     text-align: center;
-}
-
-
-
-/* .navigation {
-    background-color: #1D4ED8;
-    color: white;
-    padding: 1rem;
-    border-bottom-left-radius: 1rem;
-}
-
-.navigation .nav-brand {
-    font-weight: bold;
-    font-size: 1rem;
-}
-
-.navigation .nav-pills {
-    font-size: 1.5rem;
-    text-align: right;
-}
-
-.navigation .link-active {
-    font-weight: bold;
-}
-
-.navigation .link {
+    margin-bottom: 2rem;
     color: white;
 }
-
- */
