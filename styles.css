@@ -6,7 +6,6 @@ body {
     font-size: 1.2rem;
     font-weight: 300;
     background-image: url("https://wallpaperbat.com/img/590680-minion-desktop-wallpaper.jpg");
-    /* background-image:url("https://wallpaperbat.com/img/590674-despicable-me-background-despicable-me-wallpaper-despicable-me-2-wallpaper-and-despicable-me-background.jpg"); */
     margin: auto;
     text-align: center;
     background-attachment: fixed;
@@ -14,17 +13,16 @@ body {
     background-size: cover;
 }
 
-.name {
-    font-size: 3rem;
+.img-web {
+    padding: 1rem, 0rem;
 }
 
 .navigation {
     height: 5em;
-    /* background-image: url("https://wallpaperbat.com/img/590680-minion-desktop-wallpaper.jpg"); */
     background-color: #FBD651;
     text-align: center;
     text-shadow: black;
-    padding: 2rem;
+    padding: 1rem;
     margin-bottom: 4rem;
 }
 
@@ -33,7 +31,7 @@ body {
 }
 
 .name {
-    font-size:xx-large;
+    font-size: 4rem;
 }
 
 .text-box {
@@ -50,9 +48,6 @@ body {
     margin: auto;
 }
 
-.list-item-inline{
-    padding: 2rem;
-}
 .list-non-bullet {
     list-style: none;
     text-align: right;
@@ -63,11 +58,11 @@ body {
     padding: 0rem 0.5rem;
 }
 
-.link {text-align: right;
+.link {
         box-sizing: border-box;
-        color: teal;
+        color: black;
         text-decoration: none;
-        padding: 0.5rem 1rem;
+        padding: 2rem, 0rem;
         }
 
 footer {
@@ -91,7 +86,7 @@ footer {
 
 #output {
     background-color: white;
-    border: 2px solid white;
+    border: 2px solid black;
     height: 10vh;
     width: 65%;
     margin: auto;
@@ -103,3 +98,17 @@ footer {
     margin-bottom: 2rem;
     color: white;
 }
+
+.list-item {
+    display: inline;
+    /* margin: auto; */
+}
+
+.social-img {
+    /* display: inline-block; */
+    margin: auto;
+    display: block;
+    max-width:60px;
+    padding-inline-start: 0px;
+
+ }
