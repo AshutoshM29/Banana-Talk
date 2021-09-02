@@ -50,7 +50,7 @@ body {
 
 .list-non-bullet {
     list-style: none;
-    text-align: right;
+    text-align: center;
 }
 
 .list-item-inline {
@@ -100,15 +100,14 @@ footer {
 }
 
 .list-item {
-    display: inline;
-    /* margin: auto; */
+    display: inline-block;
 }
 
 .social-img {
-    /* display: inline-block; */
-    margin: auto;
-    display: block;
+    margin:auto;
     max-width:60px;
-    padding-inline-start: 0px;
-
  }
+
+ .footer li {
+    padding-inline-start: 0px;
+}
