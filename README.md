@@ -5,7 +5,8 @@
  A vanilaJS application, which when given input translates to Minion or Banana language.
  
  
- #Technologies used:
+ 
+ # Technologies used:
 
 
 
