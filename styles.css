@@ -2,7 +2,6 @@
 
 body {
     font-family: 'Kalam', cursive;
-    margin: 0px;
     font-size: 1.2rem;
     font-weight: 300;
     background-image: url("https://wallpaperbat.com/img/590680-minion-desktop-wallpaper.jpg");
@@ -21,7 +20,6 @@ body {
     height: 5em;
     background-color: #FBD651;
     text-align: center;
-    text-shadow: black;
     padding: 1rem;
     margin-bottom: 4rem;
 }
@@ -43,19 +41,9 @@ body {
 }
 
 
-.container-center {
-    max-width: 600px;
-    margin: auto;
-}
-
 .list-non-bullet {
     list-style: none;
     text-align: center;
-}
-
-.list-item-inline {
-    display: inline;
-    padding: 0rem 0.5rem;
 }
 
 .link {
